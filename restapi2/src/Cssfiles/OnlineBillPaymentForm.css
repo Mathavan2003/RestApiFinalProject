@@ -1,0 +1,221 @@
+/*
+.form-container {
+  display: 'flex';
+  justifyContent: center;
+  alignItems: center;
+  height: '100vh';
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    background-image: url("https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-virgin-america.png");
+  }
+  
+  .Container-1 {
+    width: 100%;
+    margin: 0; 
+  }
+  
+  /* Custom select styles 
+  .custom-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Button styles 
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Passenger details section styles 
+  h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .passenger-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  
+  .passenger-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .passenger-details label {
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  .passenger-details input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Add more styles as needed 
+  
+  /* Example: Add styles for selected flight details 
+  .selected-flight {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .selected-flight h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .selected-flight p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Customize styles based on your design */
+  .dive{
+    display: flex;
+    flex-direction: column; /* Adjust for vertical alignment */
+    justify-content: center;
+    align-items: center;
+  }
+  .form-container {
+    
+    min-height: 100vh; /* Use min-height for full viewport height */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    background-image: url("https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-virgin-america.png");
+  }
+  
+  .Container-1 {
+    width: 100%;
+    margin: 0;
+  }
+  
+  /* Custom select styles */
+  .custom-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Button styles */
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Passenger details section styles */
+  h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .passenger-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  
+  .passenger-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .passenger-details label {
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  .passenger-details input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Add more styles as needed */
+  
+  /* Example: Add styles for selected flight details */
+  .selected-flight {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .selected-flight h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .selected-flight p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Customize styles based on your design */
+  
+  

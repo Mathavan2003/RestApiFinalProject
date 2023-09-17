@@ -1,0 +1,134 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the entire page */
+  body {
+    background: linear-gradient(to bottom right, #e63b66, #103ea0);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    background: linear-gradient(to bottom right, #e63b66, #103ea0);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+  }
+  
+  .nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav a:hover {
+    color: #0056b3;
+  }
+  
+  /* Hero banner styles */
+  /* Hero Banner styles */
+.hero {
+  background-color: #007bff; /* Background color */
+  background: linear-gradient(to bottom right, #e63b66, #103ea0); /* Gradient background */
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+  border-radius: 0% 0% 30% 30% / 0% 0% 10% 10%; /* Apply border-radius for curved edges */
+  overflow: hidden; /* Hide overflow to ensure curved edges are visible */
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #103ea0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+  
+  /* About Us Section styles */
+  .about-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 16px;
+  }
+  
+  /* Contact Us Section styles */
+  .contact-section {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 16px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footer p {
+    font-size: 14px;
+  }
+  
