@@ -1,0 +1,91 @@
+/* Base styles for the login form */
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://www.womenbuildingaustralia.com.au/sites/default/files/images/Poly_BG_Grad%20%281%29_0_1.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .cover {
+    background: linear-gradient(to bottom right, #f1527a, #4873ce);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .input{
+    background-color: #dbd7d7;
+  }
+  .input:hover{
+    background-color: #fff;
+  }
+  .tex1,
+  .tex2 {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .login-btn:hover {
+    background-color:#fff;
+    color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .cover {
+      max-width: 90%;
+    }
+  }
+  
+  /* Styles for the pop-up messages */
+  .hide {
+    display: none;
+  }
+  
+  .login-popup {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+  
+  .login-popup h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .login-popup p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
